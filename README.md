@@ -11,39 +11,39 @@
   <img src="https://img.shields.io/badge/PolyTrack-0.6.3-555555" alt="PolyTrack 0.6.3">
 </p>
 
-**Tool-assisted speedrun (TAS) world records for every official [PolyTrack](https://www.kodub.com/apps/polytrack) track.** A TAS is a run whose inputs are planned frame by frame (1 frame = 1 ms) instead of played live, so it shows how fast each track can really be driven. Every run here is a normal PolyTrack recording, and CI replays it in the real game engine, downloaded from kodub.com, before it can go on the board. Nothing in the physics is changed.
+**Tool-assisted speedrun (TAS) records for every official [PolyTrack](https://www.kodub.com/apps/polytrack) track.** The inputs are planned frame by frame (1 frame = 1 ms), so these runs show how fast each track can actually go. A bot replays every run in the real game before it goes on the board. [Watch the replays](https://nickita.org/polytrack-tas/#replays).
 
-**Anyone can compete:** beat a time, open a pull request, and the bot checks your run within minutes. → [How to submit](CONTRIBUTING.md)
+**Beat a time?** Open a pull request. [How to submit](CONTRIBUTING.md)
 
 ## Records
 
 <!-- LEADERBOARD:START -->
-| Track | TAS record | Holder | Official #1 (verified) | TAS gain |
+| Track | Time | Holder | In-game WR | Faster by |
 |:--|--:|:--|:--|--:|
-| [Summer 1](LEADERBOARD.md#summer1) | **22.035** | [nickita.org](https://github.com/nickita-khylkouski) | 22.123 Monstrosity | −88 ms |
-| [Summer 2](LEADERBOARD.md#summer2) | **15.163** | [nickita.org](https://github.com/nickita-khylkouski) | 15.178 SpeedySebas | −15 ms |
-| [Summer 3](LEADERBOARD.md#summer3) | **20.225** | [nickita.org](https://github.com/nickita-khylkouski) | 20.276 SpeedySebas | −51 ms |
-| [Summer 4](LEADERBOARD.md#summer4) | **34.044** | [nickita.org](https://github.com/nickita-khylkouski) | 34.105 youngfella | −61 ms |
-| [Summer 5](LEADERBOARD.md#summer5) | **49.763** | [nickita.org](https://github.com/nickita-khylkouski) | 49.815 🇭🇰🦈 Wak3son🦈🇭🇰 | −52 ms |
-| [Summer 6](LEADERBOARD.md#summer6) | **36.965** | [nickita.org](https://github.com/nickita-khylkouski) | 37.014 cheesebob (81) | −49 ms |
-| [Summer 7](LEADERBOARD.md#summer7) | **31.129** | [nickita.org](https://github.com/nickita-khylkouski) | 31.142 SpeedySebas | −13 ms |
-| [Winter 1](LEADERBOARD.md#winter1) | **16.964** | [nickita.org](https://github.com/nickita-khylkouski) | 16.999 Monstrosity | −35 ms |
-| [Winter 2](LEADERBOARD.md#winter2) | **26.754** | [nickita.org](https://github.com/nickita-khylkouski) | 26.830 yf savestate | −76 ms |
-| [Winter 3](LEADERBOARD.md#winter3) | **34.378** | [nickita.org](https://github.com/nickita-khylkouski) | 34.485 Monstrosity | −107 ms |
-| [Winter 4](LEADERBOARD.md#winter4) | **19.294** | [nickita.org](https://github.com/nickita-khylkouski) | 19.311 SpeedySebas | −17 ms |
-| [Winter 5](LEADERBOARD.md#winter5) | **18.306** | [nickita.org](https://github.com/nickita-khylkouski) | 18.394 Monstrosity | −88 ms |
-| [Desert 1](LEADERBOARD.md#desert1) | **25.139** | [nickita.org](https://github.com/nickita-khylkouski) | 25.261 LanceB\_YT | −122 ms |
-| [Desert 2](LEADERBOARD.md#desert2) | **28.141** | [nickita.org](https://github.com/nickita-khylkouski) | 28.271 cheesebob (81) | −130 ms |
-| [Desert 3](LEADERBOARD.md#desert3) | **20.234** | [nickita.org](https://github.com/nickita-khylkouski) | 20.302 The Kroger | −68 ms |
-| [Desert 4](LEADERBOARD.md#desert4) | **21.687** | [nickita.org](https://github.com/nickita-khylkouski) | 21.750 Monstrosity | −63 ms |
-| [Desert 5](LEADERBOARD.md#desert5) | **28.962** | [nickita.org](https://github.com/nickita-khylkouski) | 29.039 LanceB\_YT | −77 ms |
+| [Summer 1](LEADERBOARD.md#summer1) | **22.035** | [nickita.org](https://github.com/nickita-khylkouski) | 22.123 Monstrosity | 88 ms |
+| [Summer 2](LEADERBOARD.md#summer2) | **15.163** | [nickita.org](https://github.com/nickita-khylkouski) | 15.178 SpeedySebas | 15 ms |
+| [Summer 3](LEADERBOARD.md#summer3) | **20.225** | [nickita.org](https://github.com/nickita-khylkouski) | 20.276 SpeedySebas | 51 ms |
+| [Summer 4](LEADERBOARD.md#summer4) | **34.044** | [nickita.org](https://github.com/nickita-khylkouski) | 34.105 youngfella | 61 ms |
+| [Summer 5](LEADERBOARD.md#summer5) | **49.763** | [nickita.org](https://github.com/nickita-khylkouski) | 49.815 🇭🇰🦈 Wak3son🦈🇭🇰 | 52 ms |
+| [Summer 6](LEADERBOARD.md#summer6) | **36.965** | [nickita.org](https://github.com/nickita-khylkouski) | 37.014 cheesebob (81) | 49 ms |
+| [Summer 7](LEADERBOARD.md#summer7) | **31.129** | [nickita.org](https://github.com/nickita-khylkouski) | 31.142 SpeedySebas | 13 ms |
+| [Winter 1](LEADERBOARD.md#winter1) | **16.964** | [nickita.org](https://github.com/nickita-khylkouski) | 16.999 Monstrosity | 35 ms |
+| [Winter 2](LEADERBOARD.md#winter2) | **26.754** | [nickita.org](https://github.com/nickita-khylkouski) | 26.830 yf savestate | 76 ms |
+| [Winter 3](LEADERBOARD.md#winter3) | **34.378** | [nickita.org](https://github.com/nickita-khylkouski) | 34.485 Monstrosity | 107 ms |
+| [Winter 4](LEADERBOARD.md#winter4) | **19.294** | [nickita.org](https://github.com/nickita-khylkouski) | 19.311 SpeedySebas | 17 ms |
+| [Winter 5](LEADERBOARD.md#winter5) | **18.306** | [nickita.org](https://github.com/nickita-khylkouski) | 18.394 Monstrosity | 88 ms |
+| [Desert 1](LEADERBOARD.md#desert1) | **25.139** | [nickita.org](https://github.com/nickita-khylkouski) | 25.261 LanceB\_YT | 122 ms |
+| [Desert 2](LEADERBOARD.md#desert2) | **28.141** | [nickita.org](https://github.com/nickita-khylkouski) | 28.271 cheesebob (81) | 130 ms |
+| [Desert 3](LEADERBOARD.md#desert3) | **20.234** | [nickita.org](https://github.com/nickita-khylkouski) | 20.302 The Kroger | 68 ms |
+| [Desert 4](LEADERBOARD.md#desert4) | **21.687** | [nickita.org](https://github.com/nickita-khylkouski) | 21.750 Monstrosity | 63 ms |
+| [Desert 5](LEADERBOARD.md#desert5) | **28.962** | [nickita.org](https://github.com/nickita-khylkouski) | 29.039 LanceB\_YT | 77 ms |
 
-<sub>Times in seconds (1 frame = 1 ms). Official #1 = top verified run on the in-game leaderboard, as of 2026-10-25. Total TAS gain: 1.112 s. Full standings: [LEADERBOARD.md](LEADERBOARD.md).</sub>
+<sub>In-game WR as of 2026-10-25, checked weekly. 1.112 s faster in total. Full standings: [LEADERBOARD.md](LEADERBOARD.md).</sub>
 <!-- LEADERBOARD:END -->
 
 ## Racing lines
 
-Top-down maps, darker = higher. **Solid black** = TAS record, **dashed grey** = official in-game #1 (usually hidden under the black line until the two split).
+Darker = higher. Solid black is the TAS, dashed grey is the in-game WR, mostly hidden under the black line until the two split. To watch both cars race, use the [replays](https://nickita.org/polytrack-tas/#replays).
 
 <!-- GALLERY:START -->
 <table>

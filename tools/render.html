@@ -59,6 +59,7 @@ function drawMap(ctx, t, x, y, w, h, { line = 2.4 } = {}) {
   if (t.human) { ctx.strokeStyle = C.human; ctx.lineWidth = line * 0.8; ctx.setLineDash([line * 2.5, line * 2]); stroke(t.human); ctx.setLineDash([]); }
   ctx.strokeStyle = C.tas; ctx.lineWidth = line; stroke(t.tas);
   ctx.restore();
+  return { X, Z };
 }
 
 const fmt = f => (f / 1000).toFixed(3);
@@ -76,18 +77,21 @@ window.trackCard = t => {
   drawMap(ctx, t, 24, 116, W - 48, H - 140, { line: 3 });
   ctx.fillStyle = C.text; ctx.font = '800 38px Geist'; ctx.fillText(t.name, 32, 60);
   ctx.fillStyle = C.dim; ctx.font = '400 16px Geist';
-  ctx.fillText(`PolyTrack 0.6.3 · top-down, darker = higher${t.human ? ' · dashed = official #1' : ''}`, 32, 90);
+  ctx.fillText(`PolyTrack 0.6.3 · top-down, darker = higher${t.human ? ' · dashed = in-game WR' : ''}`, 32, 90);
   ctx.textAlign = 'right';
   ctx.fillStyle = C.text; ctx.font = '700 22px "Geist Mono"'; ctx.fillText(`TAS ${fmt(t.tasFrames)}  ${t.tasAuthor}`, W - 32, 52);
-  if (t.human) { ctx.fillStyle = C.dim; ctx.font = '500 18px "Geist Mono"'; ctx.fillText(`Official #1 ${fmt(t.humanFrames)}  ${t.humanAuthor}`, W - 32, 84); }
+  if (t.human) { ctx.fillStyle = C.dim; ctx.font = '500 18px "Geist Mono"'; ctx.fillText(`In-game WR ${fmt(t.humanFrames)}  ${t.humanAuthor}`, W - 32, 84); }
   ctx.textAlign = 'left';
   ctx.fillStyle = C.rule; ctx.fillRect(32, 110, W - 64, 1);
 };
 
 // Map only, for the website cards. 900 x 600.
+// Returns both paths in image pixels, for the replay overlay on the website.
 window.mapOnly = t => {
   const ctx = canvas(900, 600, 2);
-  drawMap(ctx, t, 12, 12, 876, 576, { line: 4.5 });
+  const { X, Z } = drawMap(ctx, t, 12, 12, 876, 576, { line: 4.5 });
+  const px = P => P.flatMap(([x, , z]) => [Math.round(X(x) * 10), Math.round(Z(z) * 10)]);
+  return { tas: px(t.tas), human: t.human ? px(t.human) : null };
 };
 
 // Social preview / README banner: 1280 x 640.
@@ -108,7 +112,7 @@ window.banner = (tracks, stats) => {
   ctx.fillStyle = C.dim; ctx.font = '500 14px "Geist Mono"'; ctx.fillText('TOOL-ASSISTED SPEEDRUNS', 48, 150);
   ctx.fillStyle = C.text; ctx.font = '800 72px Geist'; ctx.fillText('PolyTrack', 44, 226); ctx.fillText('TAS', 44, 298);
   ctx.fillStyle = '#3a3a3a'; ctx.font = '400 19px Geist';
-  ['All 17 official tracks, replayed frame-exact', 'in the real game engine by CI.', '', 'Beat a time? Open a pull request.'].forEach((l, i) => ctx.fillText(l, 48, 356 + i * 30));
+  ['Tool-assisted runs of all 17 official tracks.', 'Every one replays in the real game engine.', '', 'Beat a time? Open a pull request.'].forEach((l, i) => ctx.fillText(l, 48, 356 + i * 30));
   ctx.fillStyle = C.rule; ctx.fillRect(48, 492, 360, 1);
   ctx.fillStyle = C.text; ctx.font = '500 15px "Geist Mono"'; stats.forEach((l, i) => ctx.fillText(l, 48, 522 + i * 24));
 };
