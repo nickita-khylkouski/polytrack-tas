@@ -1,0 +1,43 @@
+# After a run is merged (and weekly, to refresh the official #1 times): rebuild README.md, LEADERBOARD.md,
+# the maps and the website from runs/, and commit the result.
+name: update leaderboard
+on:
+  push:
+    branches: [main]
+    paths: ['runs/**', 'tools/**', 'README.md']
+  schedule:
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Cache game engine
+        uses: actions/cache@v4
+        with:
+          path: .engine
+          key: engine-0.6.3-v1
+      - run: npm run setup -- --official
+      - run: npm run leaderboard
+      - run: npm run render
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md LEADERBOARD.md docs
+          git diff --cached --quiet && exit 0
+          git commit -m "Update leaderboard"
+          git push

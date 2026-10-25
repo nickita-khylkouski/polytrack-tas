@@ -1,0 +1,72 @@
+# Replays run files in the official PolyTrack engine.
+# Pull requests: only the runs the PR adds or changes, always with the tools from the base branch (a PR cannot
+# change how it is checked). Pushes to main: every run.
+name: verify
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Tools (base branch)
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.base.sha || github.sha }}
+          path: base
+      - name: Runs (this commit)
+        uses: actions/checkout@v5
+        with:
+          path: head
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: base/package-lock.json
+      - run: npm ci
+        working-directory: base
+      - name: Cache game engine
+        id: engine
+        uses: actions/cache@v4
+        with:
+          path: base/.engine
+          key: engine-0.6.3-v1
+      - name: Install Chromium
+        if: steps.engine.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps chromium
+        working-directory: base
+      - name: Download engine + tracks from kodub.com
+        run: npm run setup
+        working-directory: base
+      - name: Pick runs to check
+        id: pick
+        run: |
+          rm -rf base/runs && cp -r head/runs base/runs
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            cd head
+            other=$(git diff --name-only ${{ github.event.pull_request.base.sha }}...HEAD | grep -v '^runs/' || true)
+            [ -n "$other" ] && echo "::warning::This PR also changes files outside runs/ (needs a manual review): $(echo $other | tr '\n' ' ')"
+            gone=$(git diff --name-only --diff-filter=D ${{ github.event.pull_request.base.sha }}...HEAD -- runs/ || true)
+            [ -n "$gone" ] && echo "::warning::This PR deletes run files: $(echo $gone | tr '\n' ' ')"
+            files=$(git diff --name-only --diff-filter=AMR ${{ github.event.pull_request.base.sha }}...HEAD -- 'runs/**' | tr '\n' ' ')
+            echo "files=$files" >> "$GITHUB_OUTPUT"
+          else
+            echo "files=--all" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Verify
+        if: steps.pick.outputs.files != ''
+        run: node tools/verify.cjs ${{ steps.pick.outputs.files }}
+        working-directory: base
+      - name: Engine self-test (official top 10s replay exactly)
+        if: github.event_name != 'pull_request'
+        run: npm run setup -- --official && npm run check-official
+        working-directory: base

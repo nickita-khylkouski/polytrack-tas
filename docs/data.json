@@ -1,0 +1,312 @@
+{
+ "version": "0.6.3",
+ "updated": "2026-10-25",
+ "tracks": [
+  {
+   "slug": "summer1",
+   "name": "Summer 1",
+   "official": {
+    "frames": 22123,
+    "nickname": "Monstrosity"
+   },
+   "runs": [
+    {
+     "frames": 22035,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/summer1/22035-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "summer2",
+   "name": "Summer 2",
+   "official": {
+    "frames": 15178,
+    "nickname": "SpeedySebas"
+   },
+   "runs": [
+    {
+     "frames": 15163,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/summer2/15163-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "summer3",
+   "name": "Summer 3",
+   "official": {
+    "frames": 20276,
+    "nickname": "SpeedySebas"
+   },
+   "runs": [
+    {
+     "frames": 20225,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/summer3/20225-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "summer4",
+   "name": "Summer 4",
+   "official": {
+    "frames": 34105,
+    "nickname": "youngfella"
+   },
+   "runs": [
+    {
+     "frames": 34044,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/summer4/34044-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "summer5",
+   "name": "Summer 5",
+   "official": {
+    "frames": 49815,
+    "nickname": "🇭🇰🦈 Wak3son🦈🇭🇰"
+   },
+   "runs": [
+    {
+     "frames": 49763,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/summer5/49763-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "summer6",
+   "name": "Summer 6",
+   "official": {
+    "frames": 37014,
+    "nickname": "cheesebob (81)"
+   },
+   "runs": [
+    {
+     "frames": 36965,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/summer6/36965-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "summer7",
+   "name": "Summer 7",
+   "official": {
+    "frames": 31142,
+    "nickname": "SpeedySebas"
+   },
+   "runs": [
+    {
+     "frames": 31129,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/summer7/31129-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "winter1",
+   "name": "Winter 1",
+   "official": {
+    "frames": 16999,
+    "nickname": "Monstrosity"
+   },
+   "runs": [
+    {
+     "frames": 16964,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/winter1/16964-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "winter2",
+   "name": "Winter 2",
+   "official": {
+    "frames": 26830,
+    "nickname": "yf savestate"
+   },
+   "runs": [
+    {
+     "frames": 26754,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/winter2/26754-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "winter3",
+   "name": "Winter 3",
+   "official": {
+    "frames": 34485,
+    "nickname": "Monstrosity"
+   },
+   "runs": [
+    {
+     "frames": 34378,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/winter3/34378-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "winter4",
+   "name": "Winter 4",
+   "official": {
+    "frames": 19311,
+    "nickname": "SpeedySebas"
+   },
+   "runs": [
+    {
+     "frames": 19294,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/winter4/19294-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "winter5",
+   "name": "Winter 5",
+   "official": {
+    "frames": 18394,
+    "nickname": "Monstrosity"
+   },
+   "runs": [
+    {
+     "frames": 18306,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/winter5/18306-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "desert1",
+   "name": "Desert 1",
+   "official": {
+    "frames": 25261,
+    "nickname": "LanceB_YT"
+   },
+   "runs": [
+    {
+     "frames": 25139,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/desert1/25139-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "desert2",
+   "name": "Desert 2",
+   "official": {
+    "frames": 28271,
+    "nickname": "cheesebob (81)"
+   },
+   "runs": [
+    {
+     "frames": 28141,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/desert2/28141-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "desert3",
+   "name": "Desert 3",
+   "official": {
+    "frames": 20302,
+    "nickname": "The Kroger"
+   },
+   "runs": [
+    {
+     "frames": 20234,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/desert3/20234-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "desert4",
+   "name": "Desert 4",
+   "official": {
+    "frames": 21750,
+    "nickname": "Monstrosity"
+   },
+   "runs": [
+    {
+     "frames": 21687,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/desert4/21687-nickita.org.json"
+    }
+   ]
+  },
+  {
+   "slug": "desert5",
+   "name": "Desert 5",
+   "official": {
+    "frames": 29039,
+    "nickname": "LanceB_YT"
+   },
+   "runs": [
+    {
+     "frames": 28962,
+     "author": "nickita.org",
+     "github": "nickita-khylkouski",
+     "date": "2026-10-25",
+     "tool": "input search over the official engine",
+     "file": "runs/desert5/28962-nickita.org.json"
+    }
+   ]
+  }
+ ]
+}

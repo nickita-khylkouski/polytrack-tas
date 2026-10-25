@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PolyTrack TAS Leaderboard: tool-assisted speedrun world records</title>
+<meta name="description" content="Tool-assisted speedrun (TAS) world records for all 17 official PolyTrack tracks, each run replayed frame-exact in the real game engine. Open to everyone: submit a faster run with a pull request.">
+<meta name="keywords" content="PolyTrack, PolyTrack TAS, tool-assisted speedrun, PolyTrack world record, PolyTrack leaderboard, PolyTrack speedrun, Kodub">
+<link rel="canonical" href="https://nickita.org/polytrack-tas/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PolyTrack TAS Leaderboard">
+<meta property="og:description" content="Tool-assisted speedrun (TAS) world records for all 17 official PolyTrack tracks, each run replayed frame-exact in the real game engine. Open to everyone: submit a faster run with a pull request.">
+<meta property="og:url" content="https://nickita.org/polytrack-tas/">
+<meta property="og:image" content="https://nickita.org/polytrack-tas/img/banner.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://nickita.org/polytrack-tas/img/banner.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"PolyTrack TAS Leaderboard","description":"Tool-assisted speedrun (TAS) world records for all 17 official PolyTrack tracks, each run replayed frame-exact in the real game engine. Open to everyone: submit a faster run with a pull request.","url":"https://nickita.org/polytrack-tas/","license":"https://opensource.org/licenses/MIT","creator":{"@type":"Person","name":"Nickita Khylkouski","url":"https://nickita.org"},"keywords":["PolyTrack","TAS","tool-assisted speedrun","speedrun","world record","leaderboard"]}</script>
+<style>
+  :root { --bg:#0e1117; --panel:#151a23; --text:#e8ecf3; --dim:#8b95a7; --tas:#ff3d6e; --human:#36d1f4; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.5 Inter, system-ui, -apple-system, sans-serif; }
+  main { max-width: 1040px; margin: 0 auto; padding: 32px 20px 80px; }
+  a { color: var(--text); }
+  .hero { width:100%; border-radius:14px; display:block; }
+  h1 { font-size: 40px; margin: 28px 0 4px; letter-spacing: -0.02em; }
+  p.lead { color: var(--dim); margin: 0 0 28px; max-width: 720px; }
+  .cta { display:inline-block; background:var(--tas); color:#fff; text-decoration:none; padding:10px 16px; border-radius:8px; font-weight:600; margin-right:8px; }
+  .cta.alt { background: var(--panel); }
+  table { width:100%; border-collapse: collapse; margin: 28px 0; font-variant-numeric: tabular-nums; }
+  th, td { text-align:left; padding: 9px 10px; border-bottom: 1px solid #222a36; }
+  th { color: var(--dim); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
+  td.t { color: var(--tas); font-weight: 700; font-family: ui-monospace, "JetBrains Mono", monospace; }
+  td.o { color: var(--human); font-family: ui-monospace, monospace; } td.o span { color: var(--dim); font-family: Inter, system-ui, sans-serif; }
+  td.g { color: var(--dim); font-family: ui-monospace, monospace; text-align:right; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+  section { background: var(--panel); border-radius: 12px; padding: 14px; }
+  section h2 { margin: 0 0 8px; font-size: 18px; } section img { width:100%; border-radius: 8px; display:block; }
+  section ol { margin: 10px 0 0; padding-left: 22px; } section li b { color: var(--tas); font-family: ui-monospace, monospace; } section li span { color: var(--dim); font-size: 13px; }
+  footer { color: var(--dim); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+<main>
+<img class="hero" src="img/banner.png" alt="PolyTrack TAS leaderboard: top-down maps of all 17 official tracks with their TAS racing lines">
+<h1>PolyTrack TAS Leaderboard</h1>
+<p class="lead">Tool-assisted speedrun (TAS) world records for all 17 official PolyTrack tracks, each run replayed frame-exact in the real game engine. Open to everyone: submit a faster run with a pull request. Total gain over the official #1 times: 1.112 s.</p>
+<a class="cta" href="https://github.com/nickita-khylkouski/polytrack-tas/blob/main/CONTRIBUTING.md">Submit a run</a><a class="cta alt" href="https://github.com/nickita-khylkouski/polytrack-tas">GitHub repo</a>
+<table>
+<thead><tr><th>Track</th><th>TAS record</th><th>Holder</th><th>Official #1 (verified)</th><th></th></tr></thead>
+<tbody>
+<tr><td><a href="#summer1">Summer 1</a></td><td class="t">22.035</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">22.123 <span>Monstrosity</span></td><td class="g">−88 ms</td></tr>
+<tr><td><a href="#summer2">Summer 2</a></td><td class="t">15.163</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">15.178 <span>SpeedySebas</span></td><td class="g">−15 ms</td></tr>
+<tr><td><a href="#summer3">Summer 3</a></td><td class="t">20.225</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">20.276 <span>SpeedySebas</span></td><td class="g">−51 ms</td></tr>
+<tr><td><a href="#summer4">Summer 4</a></td><td class="t">34.044</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">34.105 <span>youngfella</span></td><td class="g">−61 ms</td></tr>
+<tr><td><a href="#summer5">Summer 5</a></td><td class="t">49.763</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">49.815 <span>🇭🇰🦈 Wak3son🦈🇭🇰</span></td><td class="g">−52 ms</td></tr>
+<tr><td><a href="#summer6">Summer 6</a></td><td class="t">36.965</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">37.014 <span>cheesebob (81)</span></td><td class="g">−49 ms</td></tr>
+<tr><td><a href="#summer7">Summer 7</a></td><td class="t">31.129</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">31.142 <span>SpeedySebas</span></td><td class="g">−13 ms</td></tr>
+<tr><td><a href="#winter1">Winter 1</a></td><td class="t">16.964</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">16.999 <span>Monstrosity</span></td><td class="g">−35 ms</td></tr>
+<tr><td><a href="#winter2">Winter 2</a></td><td class="t">26.754</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">26.830 <span>yf savestate</span></td><td class="g">−76 ms</td></tr>
+<tr><td><a href="#winter3">Winter 3</a></td><td class="t">34.378</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">34.485 <span>Monstrosity</span></td><td class="g">−107 ms</td></tr>
+<tr><td><a href="#winter4">Winter 4</a></td><td class="t">19.294</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">19.311 <span>SpeedySebas</span></td><td class="g">−17 ms</td></tr>
+<tr><td><a href="#winter5">Winter 5</a></td><td class="t">18.306</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">18.394 <span>Monstrosity</span></td><td class="g">−88 ms</td></tr>
+<tr><td><a href="#desert1">Desert 1</a></td><td class="t">25.139</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">25.261 <span>LanceB_YT</span></td><td class="g">−122 ms</td></tr>
+<tr><td><a href="#desert2">Desert 2</a></td><td class="t">28.141</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">28.271 <span>cheesebob (81)</span></td><td class="g">−130 ms</td></tr>
+<tr><td><a href="#desert3">Desert 3</a></td><td class="t">20.234</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">20.302 <span>The Kroger</span></td><td class="g">−68 ms</td></tr>
+<tr><td><a href="#desert4">Desert 4</a></td><td class="t">21.687</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">21.750 <span>Monstrosity</span></td><td class="g">−63 ms</td></tr>
+<tr><td><a href="#desert5">Desert 5</a></td><td class="t">28.962</td><td><a href="https://github.com/nickita-khylkouski">nickita.org</a></td><td class="o">29.039 <span>LanceB_YT</span></td><td class="g">−77 ms</td></tr>
+</tbody>
+</table>
+<div class="grid">
+<section id="summer1"><h2>Summer 1</h2><img loading="lazy" src="img/tracks/summer1.png" alt="PolyTrack Summer 1 TAS line, top-down map"><ol><li><b>22.035</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="summer2"><h2>Summer 2</h2><img loading="lazy" src="img/tracks/summer2.png" alt="PolyTrack Summer 2 TAS line, top-down map"><ol><li><b>15.163</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="summer3"><h2>Summer 3</h2><img loading="lazy" src="img/tracks/summer3.png" alt="PolyTrack Summer 3 TAS line, top-down map"><ol><li><b>20.225</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="summer4"><h2>Summer 4</h2><img loading="lazy" src="img/tracks/summer4.png" alt="PolyTrack Summer 4 TAS line, top-down map"><ol><li><b>34.044</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="summer5"><h2>Summer 5</h2><img loading="lazy" src="img/tracks/summer5.png" alt="PolyTrack Summer 5 TAS line, top-down map"><ol><li><b>49.763</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="summer6"><h2>Summer 6</h2><img loading="lazy" src="img/tracks/summer6.png" alt="PolyTrack Summer 6 TAS line, top-down map"><ol><li><b>36.965</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="summer7"><h2>Summer 7</h2><img loading="lazy" src="img/tracks/summer7.png" alt="PolyTrack Summer 7 TAS line, top-down map"><ol><li><b>31.129</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="winter1"><h2>Winter 1</h2><img loading="lazy" src="img/tracks/winter1.png" alt="PolyTrack Winter 1 TAS line, top-down map"><ol><li><b>16.964</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="winter2"><h2>Winter 2</h2><img loading="lazy" src="img/tracks/winter2.png" alt="PolyTrack Winter 2 TAS line, top-down map"><ol><li><b>26.754</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="winter3"><h2>Winter 3</h2><img loading="lazy" src="img/tracks/winter3.png" alt="PolyTrack Winter 3 TAS line, top-down map"><ol><li><b>34.378</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="winter4"><h2>Winter 4</h2><img loading="lazy" src="img/tracks/winter4.png" alt="PolyTrack Winter 4 TAS line, top-down map"><ol><li><b>19.294</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="winter5"><h2>Winter 5</h2><img loading="lazy" src="img/tracks/winter5.png" alt="PolyTrack Winter 5 TAS line, top-down map"><ol><li><b>18.306</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="desert1"><h2>Desert 1</h2><img loading="lazy" src="img/tracks/desert1.png" alt="PolyTrack Desert 1 TAS line, top-down map"><ol><li><b>25.139</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="desert2"><h2>Desert 2</h2><img loading="lazy" src="img/tracks/desert2.png" alt="PolyTrack Desert 2 TAS line, top-down map"><ol><li><b>28.141</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="desert3"><h2>Desert 3</h2><img loading="lazy" src="img/tracks/desert3.png" alt="PolyTrack Desert 3 TAS line, top-down map"><ol><li><b>20.234</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="desert4"><h2>Desert 4</h2><img loading="lazy" src="img/tracks/desert4.png" alt="PolyTrack Desert 4 TAS line, top-down map"><ol><li><b>21.687</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+<section id="desert5"><h2>Desert 5</h2><img loading="lazy" src="img/tracks/desert5.png" alt="PolyTrack Desert 5 TAS line, top-down map"><ol><li><b>28.962</b> <a href="https://github.com/nickita-khylkouski">nickita.org</a> <span>2026-10-25</span></li></ol></section>
+</div>
+<footer>Unofficial community project, not affiliated with Kodub. Play PolyTrack at <a href="https://www.kodub.com/apps/polytrack">kodub.com</a>. Data: <a href="data.json">data.json</a>.</footer>
+</main>
+</body>
+</html>

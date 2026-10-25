@@ -1,0 +1,15 @@
+name: Run doesn't verify
+description: Your run finishes in the game but the verifier rejects it
+labels: [verification]
+body:
+  - type: input
+    id: track
+    attributes: { label: Track, placeholder: summer1 }
+    validations: { required: true }
+  - type: textarea
+    id: output
+    attributes: { label: Output of npm run verify, render: text }
+    validations: { required: true }
+  - type: textarea
+    id: recording
+    attributes: { label: Recording string (optional) }

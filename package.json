@@ -1,0 +1,23 @@
+{
+  "name": "polytrack-tas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PolyTrack TAS leaderboard: tool-assisted speedruns of the 17 official PolyTrack tracks, replayed frame-exact in the official game engine.",
+  "license": "MIT",
+  "repository": "github:nickita-khylkouski/polytrack-tas",
+  "keywords": ["polytrack", "tas", "tool-assisted-speedrun", "speedrun", "leaderboard", "kodub"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "setup": "node tools/setup.cjs",
+    "verify": "node tools/verify.cjs",
+    "add": "node tools/add.cjs",
+    "import": "node tools/import.cjs",
+    "leaderboard": "node tools/leaderboard.cjs",
+    "render": "node tools/render.cjs",
+    "check-official": "node tools/check-official.cjs",
+    "test": "node tools/verify.cjs --all"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}
