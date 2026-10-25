@@ -1,5 +1,5 @@
-// Draw the images in docs/img/: one top-down map per track (TAS record line vs the official #1 line) and the
-// banner. Uses headless Chromium (playwright) for the canvas.
+// Draw the images in docs/img/: one top-down map per track (TAS record line vs the official #1 line) with a
+// caption (tracks/, for the README) and without (maps/, for the website), plus the banner. Uses headless Chromium (playwright) for the canvas.
 //   npm run render
 const fs = require('node:fs');
 const path = require('node:path');
@@ -38,8 +38,9 @@ async function render({ log = console.log } = {}) {
   try {
     const page = await browser.newPage({ deviceScaleFactor: 1 });
     await page.goto('file://' + path.join(__dirname, 'render.html'));
-    await page.evaluate(() => Promise.all(['400 16px Inter', '600 16px Inter', '800 16px Inter', '500 16px "JetBrains Mono"', '700 16px "JetBrains Mono"'].map(f => document.fonts.load(f))));
+    await page.evaluate(() => Promise.all(['400 16px Geist', '500 16px Geist', '800 16px Geist', '500 16px "Geist Mono"', '700 16px "Geist Mono"'].map(f => document.fonts.load(f))));
     fs.mkdirSync(path.join(IMG, 'tracks'), { recursive: true });
+    fs.mkdirSync(path.join(IMG, 'maps'), { recursive: true });
     const shot = async (file) => {
       const png = await page.evaluate(() => document.getElementById('c').toDataURL('image/png'));
       fs.writeFileSync(file, Buffer.from(png.split(',')[1], 'base64'));
@@ -48,6 +49,8 @@ async function render({ log = console.log } = {}) {
     for (const t of data) {
       await page.evaluate(t => window.trackCard(t), t);
       await shot(path.join(IMG, 'tracks', `${t.slug}.png`));
+      await page.evaluate(t => window.mapOnly(t), t);
+      await shot(path.join(IMG, 'maps', `${t.slug}.png`));
     }
     const ahead = data.filter(t => t.human && t.tasFrames < t.humanFrames).length;
     const saved = data.reduce((s, t) => s + (t.human ? t.humanFrames - t.tasFrames : 0), 0);

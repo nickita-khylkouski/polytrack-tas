@@ -3,22 +3,22 @@
 <head>
 <meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@500;700&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;800&family=Geist+Mono:wght@400;500;700&display=block" rel="stylesheet">
 <style>
   html, body { margin: 0; background: transparent; }
-  body { font-family: Inter, system-ui, sans-serif; color: #e8ecf3; }
+  body { font-family: Geist, system-ui, sans-serif; color: #000; }
   canvas { display: block; }
 </style>
 </head>
 <body>
 <canvas id="c"></canvas>
 <script>
-// Drawing for tools/render.cjs. Units: metres, x right, z down (as seen from above).
+// Drawing for tools/render.cjs. Black and white. Units: metres, x right, z down (as seen from above).
 const C = {
-  bg: '#0e1117', panel: '#151a23', grid: 'rgba(255,255,255,0.035)',
-  lo: [44, 50, 62], hi: [176, 186, 204],
-  checkpoint: '#e2c026', start: '#338ce0', finish: '#e5484d',
-  tas: '#ff3d6e', human: '#36d1f4', text: '#e8ecf3', dim: '#8b95a7',
+  bg: '#ffffff', panel: '#f4f4f4',
+  lo: [222, 222, 222], hi: [128, 128, 128], // road: darker = higher
+  mark: '#000000',                          // checkpoints, start, finish
+  tas: '#000000', human: '#8a8a8a', text: '#000000', dim: '#6b6b6b', rule: '#e2e2e2',
 };
 const decode = b64 => { const s = atob(b64), u = new Uint8Array(s.length); for (let i = 0; i < s.length; i++) u[i] = s.charCodeAt(i); return new Float32Array(u.buffer); };
 const mix = (a, b, t) => `rgb(${a.map((v, i) => Math.round(v + (b[i] - v) * t)).join(',')})`;
@@ -32,7 +32,7 @@ function bounds(t) {
 }
 
 // Draw track t into the box (x, y, w, h) of ctx.
-function drawMap(ctx, t, x, y, w, h, { line = 2.4, glow = true } = {}) {
+function drawMap(ctx, t, x, y, w, h, { line = 2.4 } = {}) {
   const tri = decode(t.tris), b = bounds(t);
   const s = Math.min(w / (b.x1 - b.x0), h / (b.z1 - b.z0));
   const ox = x + (w - (b.x1 - b.x0) * s) / 2 - b.x0 * s, oz = y + (h - (b.z1 - b.z0) * s) / 2 - b.z0 * s;
@@ -44,66 +44,74 @@ function drawMap(ctx, t, x, y, w, h, { line = 2.4, glow = true } = {}) {
   for (let i = 0; i < tri.length; i += 9) {
     const top = tri[i + 6], light = tri[i + 7], kind = tri[i + 8];
     const e = yhi > ylo ? (top - ylo) / (yhi - ylo) : 0.5;
-    ctx.fillStyle = kind === 1 ? C.checkpoint : kind === 2 ? C.start : kind === 3 ? C.finish : mix(C.lo, C.hi, 0.15 + 0.85 * e * (0.55 + 0.45 * light));
+    ctx.fillStyle = kind ? C.mark : mix(C.lo, C.hi, 0.1 + 0.9 * e * (0.6 + 0.4 * light));
     ctx.strokeStyle = ctx.fillStyle; ctx.lineWidth = 0.6;
     ctx.beginPath();
     ctx.moveTo(X(tri[i]), Z(tri[i + 1])); ctx.lineTo(X(tri[i + 2]), Z(tri[i + 3])); ctx.lineTo(X(tri[i + 4]), Z(tri[i + 5]));
     ctx.closePath(); ctx.fill(); ctx.stroke();
   }
-  const path = (P, color, width) => {
-    ctx.lineJoin = 'round'; ctx.lineCap = 'round';
-    if (glow) { ctx.strokeStyle = color + '55'; ctx.lineWidth = width * 3; stroke(P); }
-    ctx.strokeStyle = color; ctx.lineWidth = width; stroke(P);
-  };
   const stroke = P => { ctx.beginPath(); P.forEach(([px, , pz], i) => (i ? ctx.lineTo(X(px), Z(pz)) : ctx.moveTo(X(px), Z(pz)))); ctx.stroke(); };
-  if (t.human) path(t.human, C.human, line);
-  path(t.tas, C.tas, line);
+  ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+  // white halo under both lines so they read on any shade of road
+  ctx.strokeStyle = C.bg; ctx.lineWidth = line * 2.6;
+  if (t.human) stroke(t.human);
+  stroke(t.tas);
+  if (t.human) { ctx.strokeStyle = C.human; ctx.lineWidth = line * 0.8; ctx.setLineDash([line * 2.5, line * 2]); stroke(t.human); ctx.setLineDash([]); }
+  ctx.strokeStyle = C.tas; ctx.lineWidth = line; stroke(t.tas);
   ctx.restore();
 }
 
 const fmt = f => (f / 1000).toFixed(3);
-
-// One track: map + caption. 1200 x 760.
-window.trackCard = t => {
-  const cv = document.getElementById('c'), W = 1200, H = 760, k = 2;
+const canvas = (W, H, k) => {
+  const cv = document.getElementById('c');
   cv.width = W * k; cv.height = H * k; cv.style.width = W + 'px'; cv.style.height = H + 'px';
   const ctx = cv.getContext('2d'); ctx.scale(k, k);
   ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
-  drawMap(ctx, t, 24, 96, W - 48, H - 120, { line: 3 });
-  ctx.fillStyle = C.text; ctx.font = '800 34px Inter'; ctx.fillText(t.name, 32, 56);
-  ctx.font = '700 22px "JetBrains Mono"'; ctx.textAlign = 'right';
-  ctx.fillStyle = C.tas; ctx.fillText(`TAS ${fmt(t.tasFrames)}  ${t.tasAuthor}`, W - 32, 44);
-  if (t.human) { ctx.fillStyle = C.human; ctx.fillText(`Official #1 ${fmt(t.humanFrames)}  ${t.humanAuthor}`, W - 32, 76); }
-  ctx.textAlign = 'left'; ctx.fillStyle = C.dim; ctx.font = '400 16px Inter';
-  ctx.fillText('PolyTrack 0.6.3 · top-down, lighter = higher', 32, 82);
+  return ctx;
+};
+
+// One track for the README / LEADERBOARD.md: map + caption. 1200 x 760.
+window.trackCard = t => {
+  const W = 1200, H = 760, ctx = canvas(W, H, 2);
+  drawMap(ctx, t, 24, 116, W - 48, H - 140, { line: 3 });
+  ctx.fillStyle = C.text; ctx.font = '800 38px Geist'; ctx.fillText(t.name, 32, 60);
+  ctx.fillStyle = C.dim; ctx.font = '400 16px Geist';
+  ctx.fillText(`PolyTrack 0.6.3 · top-down, darker = higher${t.human ? ' · dashed = official #1' : ''}`, 32, 90);
+  ctx.textAlign = 'right';
+  ctx.fillStyle = C.text; ctx.font = '700 22px "Geist Mono"'; ctx.fillText(`TAS ${fmt(t.tasFrames)}  ${t.tasAuthor}`, W - 32, 52);
+  if (t.human) { ctx.fillStyle = C.dim; ctx.font = '500 18px "Geist Mono"'; ctx.fillText(`Official #1 ${fmt(t.humanFrames)}  ${t.humanAuthor}`, W - 32, 84); }
+  ctx.textAlign = 'left';
+  ctx.fillStyle = C.rule; ctx.fillRect(32, 110, W - 64, 1);
+};
+
+// Map only, for the website cards. 900 x 600.
+window.mapOnly = t => {
+  const ctx = canvas(900, 600, 2);
+  drawMap(ctx, t, 12, 12, 876, 576, { line: 4.5 });
 };
 
 // Social preview / README banner: 1280 x 640.
 window.banner = (tracks, stats) => {
-  const cv = document.getElementById('c'), W = 1280, H = 640, k = 2;
-  cv.width = W * k; cv.height = H * k; cv.style.width = W + 'px'; cv.style.height = H + 'px';
-  const ctx = cv.getContext('2d'); ctx.scale(k, k);
-  ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
-  const cols = 6, rows = 3, gx = 470, gy = 28, cw = (W - gx - 28) / cols, ch = (H - 56) / rows;
+  const W = 1280, H = 640, ctx = canvas(W, H, 2);
+  const cols = 6, gx = 470, gy = 28, cw = (W - gx - 28) / cols, ch = (H - 56) / 3;
   tracks.forEach((t, i) => {
     const cx = gx + (i % cols) * cw, cy = gy + Math.floor(i / cols) * ch;
-    ctx.fillStyle = C.panel; roundRect(ctx, cx + 4, cy + 4, cw - 8, ch - 8, 10); ctx.fill();
-    drawMap(ctx, t, cx + 8, cy + 8, cw - 16, ch - 30, { line: 1.4, glow: false });
-    ctx.fillStyle = C.dim; ctx.font = '600 11px Inter'; ctx.fillText(t.name, cx + 12, cy + ch - 12);
-    ctx.fillStyle = C.tas; ctx.font = '700 11px "JetBrains Mono"'; ctx.textAlign = 'right'; ctx.fillText(fmt(t.tasFrames), cx + cw - 12, cy + ch - 12); ctx.textAlign = 'left';
+    ctx.fillStyle = C.panel; ctx.beginPath(); ctx.roundRect(cx + 4, cy + 4, cw - 8, ch - 8, 6); ctx.fill();
+    drawMap(ctx, t, cx + 8, cy + 8, cw - 16, ch - 30, { line: 1.3 });
+    ctx.fillStyle = C.dim; ctx.font = '500 11px Geist'; ctx.fillText(t.name, cx + 12, cy + ch - 13);
+    ctx.fillStyle = C.text; ctx.font = '700 11px "Geist Mono"'; ctx.textAlign = 'right'; ctx.fillText(fmt(t.tasFrames), cx + cw - 12, cy + ch - 13); ctx.textAlign = 'left';
   });
   const last = tracks.length, cx = gx + (last % cols) * cw, cy = gy + Math.floor(last / cols) * ch;
-  ctx.strokeStyle = 'rgba(255,255,255,0.18)'; ctx.setLineDash([5, 5]); roundRect(ctx, cx + 4, cy + 4, cw - 8, ch - 8, 10); ctx.stroke(); ctx.setLineDash([]);
-  ctx.fillStyle = C.dim; ctx.font = '600 13px Inter'; ctx.textAlign = 'center'; ctx.fillText('your run?', cx + cw / 2, cy + ch / 2 + 4); ctx.textAlign = 'left';
+  ctx.strokeStyle = '#bdbdbd'; ctx.lineWidth = 1; ctx.setLineDash([4, 4]); ctx.beginPath(); ctx.roundRect(cx + 4.5, cy + 4.5, cw - 9, ch - 9, 6); ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle = C.dim; ctx.font = '500 13px Geist'; ctx.textAlign = 'center'; ctx.fillText('your run?', cx + cw / 2, cy + ch / 2 + 4); ctx.textAlign = 'left';
 
-  ctx.fillStyle = C.tas; ctx.font = '700 15px "JetBrains Mono"'; ctx.fillText('TOOL-ASSISTED SPEEDRUNS', 48, 150);
-  ctx.fillStyle = C.text; ctx.font = '800 68px Inter'; ctx.fillText('PolyTrack', 44, 222); ctx.fillText('TAS', 44, 292);
-  ctx.fillStyle = C.dim; ctx.font = '400 19px Inter';
-  ['All 17 official tracks, replayed frame-exact', 'in the real game engine by CI.', '', 'Beat a time? Open a pull request.'].forEach((l, i) => ctx.fillText(l, 48, 352 + i * 31));
-  ctx.fillStyle = C.text; ctx.font = '700 15px "JetBrains Mono"'; stats.forEach((l, i) => ctx.fillText(l, 48, 512 + i * 24));
+  ctx.fillStyle = C.dim; ctx.font = '500 14px "Geist Mono"'; ctx.fillText('TOOL-ASSISTED SPEEDRUNS', 48, 150);
+  ctx.fillStyle = C.text; ctx.font = '800 72px Geist'; ctx.fillText('PolyTrack', 44, 226); ctx.fillText('TAS', 44, 298);
+  ctx.fillStyle = '#3a3a3a'; ctx.font = '400 19px Geist';
+  ['All 17 official tracks, replayed frame-exact', 'in the real game engine by CI.', '', 'Beat a time? Open a pull request.'].forEach((l, i) => ctx.fillText(l, 48, 356 + i * 30));
+  ctx.fillStyle = C.rule; ctx.fillRect(48, 492, 360, 1);
+  ctx.fillStyle = C.text; ctx.font = '500 15px "Geist Mono"'; stats.forEach((l, i) => ctx.fillText(l, 48, 522 + i * 24));
 };
-
-function roundRect(ctx, x, y, w, h, r) { ctx.beginPath(); ctx.roundRect(x, y, w, h, r); }
 </script>
 </body>
 </html>

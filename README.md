@@ -6,9 +6,9 @@
 
 <p align="center">
   <a href="https://github.com/nickita-khylkouski/polytrack-tas/actions/workflows/verify.yml"><img src="https://github.com/nickita-khylkouski/polytrack-tas/actions/workflows/verify.yml/badge.svg" alt="runs verified"></a>
-  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-ff3d6e" alt="PRs welcome"></a>
-  <a href="https://nickita.org/polytrack-tas/"><img src="https://img.shields.io/badge/website-leaderboard-36d1f4" alt="website"></a>
-  <img src="https://img.shields.io/badge/PolyTrack-0.6.3-8b95a7" alt="PolyTrack 0.6.3">
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-000000" alt="PRs welcome"></a>
+  <a href="https://nickita.org/polytrack-tas/"><img src="https://img.shields.io/badge/website-leaderboard-000000" alt="website"></a>
+  <img src="https://img.shields.io/badge/PolyTrack-0.6.3-555555" alt="PolyTrack 0.6.3">
 </p>
 
 **Tool-assisted speedrun (TAS) world records for every official [PolyTrack](https://www.kodub.com/apps/polytrack) track.** A TAS is a run whose inputs are planned frame by frame (1 frame = 1 ms) instead of played live, so it shows how fast each track can really be driven. Every run here is a normal PolyTrack recording, and CI replays it in the real game engine, downloaded from kodub.com, before it can go on the board. Nothing in the physics is changed.
@@ -43,7 +43,7 @@
 
 ## Racing lines
 
-Top-down maps, lighter = higher. **Pink** = TAS record, **cyan** = official in-game #1 (usually hidden under the pink line until the two split).
+Top-down maps, darker = higher. **Solid black** = TAS record, **dashed grey** = official in-game #1 (usually hidden under the black line until the two split).
 
 <!-- GALLERY:START -->
 <table>
