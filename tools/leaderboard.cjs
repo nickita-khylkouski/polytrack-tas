@@ -97,11 +97,7 @@ function site(data, total) {
   const person = r => (r.github ? `<a href="https://github.com/${esc(r.github)}">${esc(r.author)}</a>` : esc(r.author));
   const gains = data.map(t => (t.runs[0] && t.official ? t.official.frames - t.runs[0].frames : 0));
   const maxGain = Math.max(1, ...gains.map(Math.abs));
-  const held = data.filter(t => t.runs.length).length, ahead = gains.filter(g => g > 0).length;
   const contrib = `https://github.com/${REPO}/blob/main/CONTRIBUTING.md`;
-  const lead = ahead === data.length
-    ? `All ${data.length} beat the in-game world record, by ${fmt(total)} s combined.`
-    : `${ahead} of ${data.length} beat the in-game world record.`;
   const rows = data.map((t, i) => {
     const r = t.runs[0], o = t.official, g = gains[i];
     const gain = r && o ? `<span class="bar"><i style="width:${(100 * Math.max(0, g) / maxGain).toFixed(1)}%"></i></span><span class="gv">${g > 0 ? `${g} ms` : g < 0 ? `+${-g} ms` : 'tie'}</span>` : '';
@@ -238,7 +234,7 @@ ${r ? `<div class="replay" data-slug="${t.slug}">
 <main class="wrap">
 <div class="hero">
   <h1>PolyTrack<br>TAS</h1>
-  <p class="lead">Tool-assisted runs of every official PolyTrack track. <b>${lead}</b> Got a faster one? Send a pull request.</p>
+  <p class="lead">Tool-assisted runs of every official PolyTrack track. Got a faster one? Send a pull request.</p>
   <a class="btn solid" href="${contrib}">Submit a run</a><a class="btn" href="#replays">Watch replays</a>
 </div>
 
