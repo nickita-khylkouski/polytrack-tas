@@ -9,7 +9,7 @@ Built from [`runs/`](runs). One entry per author (their fastest). Ties go to the
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **22.035** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [22035-nickita.org.json](runs/summer1/22035-nickita.org.json) |
+| 1 | **22.010** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [22010-nickita.org.json](runs/summer1/22010-nickita.org.json) |
 
 In-game WR: 22.123 by Monstrosity.
 
@@ -20,7 +20,7 @@ In-game WR: 22.123 by Monstrosity.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **15.163** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [15163-nickita.org.json](runs/summer2/15163-nickita.org.json) |
+| 1 | **15.152** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [15152-nickita.org.json](runs/summer2/15152-nickita.org.json) |
 
 In-game WR: 15.178 by SpeedySebas.
 
@@ -31,7 +31,7 @@ In-game WR: 15.178 by SpeedySebas.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **20.225** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [20225-nickita.org.json](runs/summer3/20225-nickita.org.json) |
+| 1 | **20.155** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [20155-nickita.org.json](runs/summer3/20155-nickita.org.json) |
 
 In-game WR: 20.276 by SpeedySebas.
 
@@ -42,7 +42,7 @@ In-game WR: 20.276 by SpeedySebas.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **34.044** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [34044-nickita.org.json](runs/summer4/34044-nickita.org.json) |
+| 1 | **33.992** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [33992-nickita.org.json](runs/summer4/33992-nickita.org.json) |
 
 In-game WR: 34.105 by youngfella.
 
@@ -53,7 +53,7 @@ In-game WR: 34.105 by youngfella.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **49.763** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [49763-nickita.org.json](runs/summer5/49763-nickita.org.json) |
+| 1 | **49.577** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [49577-nickita.org.json](runs/summer5/49577-nickita.org.json) |
 
 In-game WR: 49.815 by 🇭🇰🦈 Wak3son🦈🇭🇰.
 
@@ -64,7 +64,7 @@ In-game WR: 49.815 by 🇭🇰🦈 Wak3son🦈🇭🇰.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **36.965** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [36965-nickita.org.json](runs/summer6/36965-nickita.org.json) |
+| 1 | **36.920** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [36920-nickita.org.json](runs/summer6/36920-nickita.org.json) |
 
 In-game WR: 37.014 by cheesebob (81).
 
@@ -75,7 +75,7 @@ In-game WR: 37.014 by cheesebob (81).
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **31.129** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [31129-nickita.org.json](runs/summer7/31129-nickita.org.json) |
+| 1 | **31.030** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [31030-nickita.org.json](runs/summer7/31030-nickita.org.json) |
 
 In-game WR: 31.142 by SpeedySebas.
 
@@ -86,7 +86,7 @@ In-game WR: 31.142 by SpeedySebas.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **16.964** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [16964-nickita.org.json](runs/winter1/16964-nickita.org.json) |
+| 1 | **16.959** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [16959-nickita.org.json](runs/winter1/16959-nickita.org.json) |
 
 In-game WR: 16.999 by Monstrosity.
 
@@ -97,7 +97,7 @@ In-game WR: 16.999 by Monstrosity.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **26.754** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [26754-nickita.org.json](runs/winter2/26754-nickita.org.json) |
+| 1 | **26.669** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [26669-nickita.org.json](runs/winter2/26669-nickita.org.json) |
 
 In-game WR: 26.830 by yf savestate.
 
@@ -108,7 +108,7 @@ In-game WR: 26.830 by yf savestate.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **34.378** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [34378-nickita.org.json](runs/winter3/34378-nickita.org.json) |
+| 1 | **34.219** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [34219-nickita.org.json](runs/winter3/34219-nickita.org.json) |
 
 In-game WR: 34.485 by Monstrosity.
 
@@ -119,7 +119,7 @@ In-game WR: 34.485 by Monstrosity.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **19.294** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [19294-nickita.org.json](runs/winter4/19294-nickita.org.json) |
+| 1 | **19.246** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [19246-nickita.org.json](runs/winter4/19246-nickita.org.json) |
 
 In-game WR: 19.311 by SpeedySebas.
 
@@ -130,7 +130,7 @@ In-game WR: 19.311 by SpeedySebas.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **18.306** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [18306-nickita.org.json](runs/winter5/18306-nickita.org.json) |
+| 1 | **18.149** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [18149-nickita.org.json](runs/winter5/18149-nickita.org.json) |
 
 In-game WR: 18.394 by Monstrosity.
 
@@ -141,7 +141,7 @@ In-game WR: 18.394 by Monstrosity.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **25.139** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [25139-nickita.org.json](runs/desert1/25139-nickita.org.json) |
+| 1 | **25.009** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [25009-nickita.org.json](runs/desert1/25009-nickita.org.json) |
 
 In-game WR: 25.261 by LanceB\_YT.
 
@@ -152,7 +152,7 @@ In-game WR: 25.261 by LanceB\_YT.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **28.141** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [28141-nickita.org.json](runs/desert2/28141-nickita.org.json) |
+| 1 | **28.062** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [28062-nickita.org.json](runs/desert2/28062-nickita.org.json) |
 
 In-game WR: 28.271 by cheesebob (81).
 
@@ -163,7 +163,7 @@ In-game WR: 28.271 by cheesebob (81).
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **20.234** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [20234-nickita.org.json](runs/desert3/20234-nickita.org.json) |
+| 1 | **20.150** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [20150-nickita.org.json](runs/desert3/20150-nickita.org.json) |
 
 In-game WR: 20.302 by The Kroger.
 
@@ -174,7 +174,7 @@ In-game WR: 20.302 by The Kroger.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **21.687** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [21687-nickita.org.json](runs/desert4/21687-nickita.org.json) |
+| 1 | **21.640** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [21640-nickita.org.json](runs/desert4/21640-nickita.org.json) |
 
 In-game WR: 21.750 by Monstrosity.
 
@@ -185,6 +185,6 @@ In-game WR: 21.750 by Monstrosity.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **28.962** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-25 | input search over the official engine | [28962-nickita.org.json](runs/desert5/28962-nickita.org.json) |
+| 1 | **28.911** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [28911-nickita.org.json](runs/desert5/28911-nickita.org.json) |
 
 In-game WR: 29.039 by LanceB\_YT.
