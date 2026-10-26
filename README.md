@@ -38,7 +38,7 @@
 | [Desert 4](LEADERBOARD.md#desert4) | **21.687** | [nickita.org](https://github.com/nickita-khylkouski) | 21.750 Monstrosity | 63 ms |
 | [Desert 5](LEADERBOARD.md#desert5) | **28.962** | [nickita.org](https://github.com/nickita-khylkouski) | 29.039 LanceB\_YT | 77 ms |
 
-<sub>In-game WR as of 2026-10-25, checked weekly. 1.112 s faster in total. Full standings: [LEADERBOARD.md](LEADERBOARD.md).</sub>
+<sub>In-game WR as of 2026-10-26, checked weekly. 1.112 s faster in total. Full standings: [LEADERBOARD.md](LEADERBOARD.md).</sub>
 <!-- LEADERBOARD:END -->
 
 ## Racing lines
