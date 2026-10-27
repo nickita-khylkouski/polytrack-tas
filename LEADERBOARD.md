@@ -22,7 +22,7 @@ In-game WR: 22.123 by Monstrosity.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **15.152** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [15152-nickita.org.json](runs/summer2/15152-nickita.org.json) |
 
-In-game WR: 15.178 by SpeedySebas.
+In-game WR: 15.175 by mac.
 
 <a id="summer3"></a>
 ## Summer 3
@@ -31,7 +31,7 @@ In-game WR: 15.178 by SpeedySebas.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **20.155** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [20155-nickita.org.json](runs/summer3/20155-nickita.org.json) |
+| 1 | **20.152** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [20152-nickita.org.json](runs/summer3/20152-nickita.org.json) |
 
 In-game WR: 20.276 by SpeedySebas.
 
@@ -75,7 +75,7 @@ In-game WR: 37.014 by cheesebob (81).
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **31.030** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [31030-nickita.org.json](runs/summer7/31030-nickita.org.json) |
+| 1 | **31.029** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [31029-nickita.org.json](runs/summer7/31029-nickita.org.json) |
 
 In-game WR: 31.142 by SpeedySebas.
 
@@ -130,7 +130,7 @@ In-game WR: 19.311 by SpeedySebas.
 
 | # | Time | Author | Date | Made with | Run file |
 |--:|--:|:--|:--|:--|:--|
-| 1 | **18.149** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [18149-nickita.org.json](runs/winter5/18149-nickita.org.json) |
+| 1 | **18.148** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [18148-nickita.org.json](runs/winter5/18148-nickita.org.json) |
 
 In-game WR: 18.394 by Monstrosity.
 

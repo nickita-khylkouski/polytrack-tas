@@ -1,6 +1,6 @@
 {
  "version": "0.6.3",
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "tracks": [
   {
    "slug": "summer1",
@@ -24,8 +24,8 @@
    "slug": "summer2",
    "name": "Summer 2",
    "official": {
-    "frames": 15178,
-    "nickname": "SpeedySebas"
+    "frames": 15175,
+    "nickname": "mac"
    },
    "runs": [
     {
@@ -47,12 +47,12 @@
    },
    "runs": [
     {
-     "frames": 20155,
+     "frames": 20152,
      "author": "nickita.org",
      "github": "nickita-khylkouski",
      "date": "2026-10-26",
      "tool": "input search over the official engine",
-     "file": "runs/summer3/20155-nickita.org.json"
+     "file": "runs/summer3/20152-nickita.org.json"
     }
    ]
   },
@@ -119,12 +119,12 @@
    },
    "runs": [
     {
-     "frames": 31030,
+     "frames": 31029,
      "author": "nickita.org",
      "github": "nickita-khylkouski",
      "date": "2026-10-26",
      "tool": "input search over the official engine",
-     "file": "runs/summer7/31030-nickita.org.json"
+     "file": "runs/summer7/31029-nickita.org.json"
     }
    ]
   },
@@ -209,12 +209,12 @@
    },
    "runs": [
     {
-     "frames": 18149,
+     "frames": 18148,
      "author": "nickita.org",
      "github": "nickita-khylkouski",
      "date": "2026-10-26",
      "tool": "input search over the official engine",
-     "file": "runs/winter5/18149-nickita.org.json"
+     "file": "runs/winter5/18148-nickita.org.json"
     }
    ]
   },
