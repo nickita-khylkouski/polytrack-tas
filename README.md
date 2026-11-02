@@ -20,12 +20,12 @@
 <!-- LEADERBOARD:START -->
 | Track | Time | Holder | In-game WR | Faster by |
 |:--|--:|:--|:--|--:|
-| [Summer 1](LEADERBOARD.md#summer1) | **22.010** | [nickita.org](https://github.com/nickita-khylkouski) | 22.123 Monstrosity | 113 ms |
-| [Summer 2](LEADERBOARD.md#summer2) | **15.152** | [nickita.org](https://github.com/nickita-khylkouski) | 15.175 mac | 23 ms |
+| [Summer 1](LEADERBOARD.md#summer1) | **22.010** | [nickita.org](https://github.com/nickita-khylkouski) | 22.076 applew2 | 66 ms |
+| [Summer 2](LEADERBOARD.md#summer2) | **15.152** | [nickita.org](https://github.com/nickita-khylkouski) | 15.156 Fushijo | 4 ms |
 | [Summer 3](LEADERBOARD.md#summer3) | **20.152** | [nickita.org](https://github.com/nickita-khylkouski) | 20.276 SpeedySebas | 124 ms |
 | [Summer 4](LEADERBOARD.md#summer4) | **33.992** | [nickita.org](https://github.com/nickita-khylkouski) | 34.105 youngfella | 113 ms |
 | [Summer 5](LEADERBOARD.md#summer5) | **49.577** | [nickita.org](https://github.com/nickita-khylkouski) | 49.815 🇭🇰🦈 Wak3son🦈🇭🇰 | 238 ms |
-| [Summer 6](LEADERBOARD.md#summer6) | **36.920** | [nickita.org](https://github.com/nickita-khylkouski) | 37.014 cheesebob (81) | 94 ms |
+| [Summer 6](LEADERBOARD.md#summer6) | **36.920** | [nickita.org](https://github.com/nickita-khylkouski) | 36.992 Monstrosity | 72 ms |
 | [Summer 7](LEADERBOARD.md#summer7) | **31.029** | [nickita.org](https://github.com/nickita-khylkouski) | 31.142 SpeedySebas | 113 ms |
 | [Winter 1](LEADERBOARD.md#winter1) | **16.959** | [nickita.org](https://github.com/nickita-khylkouski) | 16.999 Monstrosity | 40 ms |
 | [Winter 2](LEADERBOARD.md#winter2) | **26.669** | [nickita.org](https://github.com/nickita-khylkouski) | 26.830 yf savestate | 161 ms |
@@ -34,11 +34,11 @@
 | [Winter 5](LEADERBOARD.md#winter5) | **18.148** | [nickita.org](https://github.com/nickita-khylkouski) | 18.394 Monstrosity | 246 ms |
 | [Desert 1](LEADERBOARD.md#desert1) | **25.009** | [nickita.org](https://github.com/nickita-khylkouski) | 25.261 LanceB\_YT | 252 ms |
 | [Desert 2](LEADERBOARD.md#desert2) | **28.062** | [nickita.org](https://github.com/nickita-khylkouski) | 28.271 cheesebob (81) | 209 ms |
-| [Desert 3](LEADERBOARD.md#desert3) | **20.150** | [nickita.org](https://github.com/nickita-khylkouski) | 20.302 The Kroger | 152 ms |
+| [Desert 3](LEADERBOARD.md#desert3) | **20.150** | [nickita.org](https://github.com/nickita-khylkouski) | 20.176 John | 26 ms |
 | [Desert 4](LEADERBOARD.md#desert4) | **21.640** | [nickita.org](https://github.com/nickita-khylkouski) | 21.750 Monstrosity | 110 ms |
-| [Desert 5](LEADERBOARD.md#desert5) | **28.911** | [nickita.org](https://github.com/nickita-khylkouski) | 29.039 LanceB\_YT | 128 ms |
+| [Desert 5](LEADERBOARD.md#desert5) | **28.911** | [nickita.org](https://github.com/nickita-khylkouski) | 29.027 Monstrosity | 116 ms |
 
-<sub>In-game WR as of 2026-10-27, checked weekly. 2.447 s faster in total. Full standings: [LEADERBOARD.md](LEADERBOARD.md).</sub>
+<sub>In-game WR as of 2026-11-02, checked weekly. 2.221 s faster in total. Full standings: [LEADERBOARD.md](LEADERBOARD.md).</sub>
 <!-- LEADERBOARD:END -->
 
 ## Racing lines

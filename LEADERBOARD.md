@@ -11,7 +11,7 @@ Built from [`runs/`](runs). One entry per author (their fastest). Ties go to the
 |--:|--:|:--|:--|:--|:--|
 | 1 | **22.010** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [22010-nickita.org.json](runs/summer1/22010-nickita.org.json) |
 
-In-game WR: 22.123 by Monstrosity.
+In-game WR: 22.076 by applew2.
 
 <a id="summer2"></a>
 ## Summer 2
@@ -22,7 +22,7 @@ In-game WR: 22.123 by Monstrosity.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **15.152** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [15152-nickita.org.json](runs/summer2/15152-nickita.org.json) |
 
-In-game WR: 15.175 by mac.
+In-game WR: 15.156 by Fushijo.
 
 <a id="summer3"></a>
 ## Summer 3
@@ -66,7 +66,7 @@ In-game WR: 49.815 by 🇭🇰🦈 Wak3son🦈🇭🇰.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **36.920** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [36920-nickita.org.json](runs/summer6/36920-nickita.org.json) |
 
-In-game WR: 37.014 by cheesebob (81).
+In-game WR: 36.992 by Monstrosity.
 
 <a id="summer7"></a>
 ## Summer 7
@@ -165,7 +165,7 @@ In-game WR: 28.271 by cheesebob (81).
 |--:|--:|:--|:--|:--|:--|
 | 1 | **20.150** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [20150-nickita.org.json](runs/desert3/20150-nickita.org.json) |
 
-In-game WR: 20.302 by The Kroger.
+In-game WR: 20.176 by John.
 
 <a id="desert4"></a>
 ## Desert 4
@@ -187,4 +187,4 @@ In-game WR: 21.750 by Monstrosity.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **28.911** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [28911-nickita.org.json](runs/desert5/28911-nickita.org.json) |
 
-In-game WR: 29.039 by LanceB\_YT.
+In-game WR: 29.027 by Monstrosity.

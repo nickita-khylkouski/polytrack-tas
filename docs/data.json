@@ -1,13 +1,13 @@
 {
  "version": "0.6.3",
- "updated": "2026-10-27",
+ "updated": "2026-11-02",
  "tracks": [
   {
    "slug": "summer1",
    "name": "Summer 1",
    "official": {
-    "frames": 22123,
-    "nickname": "Monstrosity"
+    "frames": 22076,
+    "nickname": "applew2"
    },
    "runs": [
     {
@@ -24,8 +24,8 @@
    "slug": "summer2",
    "name": "Summer 2",
    "official": {
-    "frames": 15175,
-    "nickname": "mac"
+    "frames": 15156,
+    "nickname": "Fushijo"
    },
    "runs": [
     {
@@ -96,8 +96,8 @@
    "slug": "summer6",
    "name": "Summer 6",
    "official": {
-    "frames": 37014,
-    "nickname": "cheesebob (81)"
+    "frames": 36992,
+    "nickname": "Monstrosity"
    },
    "runs": [
     {
@@ -258,8 +258,8 @@
    "slug": "desert3",
    "name": "Desert 3",
    "official": {
-    "frames": 20302,
-    "nickname": "The Kroger"
+    "frames": 20176,
+    "nickname": "John"
    },
    "runs": [
     {
@@ -294,8 +294,8 @@
    "slug": "desert5",
    "name": "Desert 5",
    "official": {
-    "frames": 29039,
-    "nickname": "LanceB_YT"
+    "frames": 29027,
+    "nickname": "Monstrosity"
    },
    "runs": [
     {
