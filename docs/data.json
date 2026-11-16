@@ -1,13 +1,13 @@
 {
  "version": "0.6.3",
- "updated": "2026-11-09",
+ "updated": "2026-11-16",
  "tracks": [
   {
    "slug": "summer1",
    "name": "Summer 1",
    "official": {
-    "frames": 22010,
-    "nickname": "lebroninitus"
+    "frames": 22123,
+    "nickname": "Monstrosity"
    },
    "runs": [
     {
@@ -42,8 +42,8 @@
    "slug": "summer3",
    "name": "Summer 3",
    "official": {
-    "frames": 20246,
-    "nickname": "Anonymous"
+    "frames": 20276,
+    "nickname": "SpeedySebas"
    },
    "runs": [
     {
@@ -60,8 +60,8 @@
    "slug": "summer4",
    "name": "Summer 4",
    "official": {
-    "frames": 34093,
-    "nickname": "G Lixin"
+    "frames": 34105,
+    "nickname": "youngfella"
    },
    "runs": [
     {
@@ -78,8 +78,8 @@
    "slug": "summer5",
    "name": "Summer 5",
    "official": {
-    "frames": 49813,
-    "nickname": "G Lixin"
+    "frames": 49815,
+    "nickname": "🇭🇰🦈 Wak3son🦈🇭🇰"
    },
    "runs": [
     {
@@ -96,8 +96,8 @@
    "slug": "summer6",
    "name": "Summer 6",
    "official": {
-    "frames": 36992,
-    "nickname": "Monstrosity"
+    "frames": 36921,
+    "nickname": "gmoneyy"
    },
    "runs": [
     {
@@ -132,8 +132,8 @@
    "slug": "winter1",
    "name": "Winter 1",
    "official": {
-    "frames": 16981,
-    "nickname": "G Lixin"
+    "frames": 16961,
+    "nickname": "gmoneyy"
    },
    "runs": [
     {
@@ -150,8 +150,8 @@
    "slug": "winter2",
    "name": "Winter 2",
    "official": {
-    "frames": 26805,
-    "nickname": "G Lixin"
+    "frames": 26820,
+    "nickname": "heisfast"
    },
    "runs": [
     {
@@ -168,8 +168,8 @@
    "slug": "winter3",
    "name": "Winter 3",
    "official": {
-    "frames": 34356,
-    "nickname": "G Lixin"
+    "frames": 34220,
+    "nickname": "gmoneyy"
    },
    "runs": [
     {
@@ -186,8 +186,8 @@
    "slug": "winter4",
    "name": "Winter 4",
    "official": {
-    "frames": 19303,
-    "nickname": "G Lixin"
+    "frames": 19249,
+    "nickname": "gmoneyy"
    },
    "runs": [
     {
@@ -204,8 +204,8 @@
    "slug": "winter5",
    "name": "Winter 5",
    "official": {
-    "frames": 18323,
-    "nickname": "SpeedySebas"
+    "frames": 18150,
+    "nickname": "gmoneyy"
    },
    "runs": [
     {
@@ -222,8 +222,8 @@
    "slug": "desert1",
    "name": "Desert 1",
    "official": {
-    "frames": 25011,
-    "nickname": "yungy shortcutter"
+    "frames": 25161,
+    "nickname": "Monstrosity"
    },
    "runs": [
     {
@@ -240,8 +240,8 @@
    "slug": "desert2",
    "name": "Desert 2",
    "official": {
-    "frames": 28268,
-    "nickname": "Anonymous"
+    "frames": 28063,
+    "nickname": "gmoneyy"
    },
    "runs": [
     {
@@ -258,8 +258,8 @@
    "slug": "desert3",
    "name": "Desert 3",
    "official": {
-    "frames": 20295,
-    "nickname": "G Lixin"
+    "frames": 20302,
+    "nickname": "The Kroger"
    },
    "runs": [
     {
@@ -276,8 +276,8 @@
    "slug": "desert4",
    "name": "Desert 4",
    "official": {
-    "frames": 21722,
-    "nickname": "G Lixin"
+    "frames": 21750,
+    "nickname": "Monstrosity"
    },
    "runs": [
     {
@@ -294,8 +294,8 @@
    "slug": "desert5",
    "name": "Desert 5",
    "official": {
-    "frames": 29000,
-    "nickname": "G Lixin"
+    "frames": 28913,
+    "nickname": "gmoneyy"
    },
    "runs": [
     {

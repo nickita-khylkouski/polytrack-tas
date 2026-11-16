@@ -11,7 +11,7 @@ Built from [`runs/`](runs). One entry per author (their fastest). Ties go to the
 |--:|--:|:--|:--|:--|:--|
 | 1 | **22.010** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [22010-nickita.org.json](runs/summer1/22010-nickita.org.json) |
 
-In-game WR: 22.010 by lebroninitus.
+In-game WR: 22.123 by Monstrosity.
 
 <a id="summer2"></a>
 ## Summer 2
@@ -33,7 +33,7 @@ In-game WR: 15.178 by SpeedySebas.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **20.152** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [20152-nickita.org.json](runs/summer3/20152-nickita.org.json) |
 
-In-game WR: 20.246 by Anonymous.
+In-game WR: 20.276 by SpeedySebas.
 
 <a id="summer4"></a>
 ## Summer 4
@@ -44,7 +44,7 @@ In-game WR: 20.246 by Anonymous.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **33.992** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [33992-nickita.org.json](runs/summer4/33992-nickita.org.json) |
 
-In-game WR: 34.093 by G Lixin.
+In-game WR: 34.105 by youngfella.
 
 <a id="summer5"></a>
 ## Summer 5
@@ -55,7 +55,7 @@ In-game WR: 34.093 by G Lixin.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **49.577** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [49577-nickita.org.json](runs/summer5/49577-nickita.org.json) |
 
-In-game WR: 49.813 by G Lixin.
+In-game WR: 49.815 by 🇭🇰🦈 Wak3son🦈🇭🇰.
 
 <a id="summer6"></a>
 ## Summer 6
@@ -66,7 +66,7 @@ In-game WR: 49.813 by G Lixin.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **36.920** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [36920-nickita.org.json](runs/summer6/36920-nickita.org.json) |
 
-In-game WR: 36.992 by Monstrosity.
+In-game WR: 36.921 by gmoneyy.
 
 <a id="summer7"></a>
 ## Summer 7
@@ -88,7 +88,7 @@ In-game WR: 31.142 by SpeedySebas.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **16.959** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [16959-nickita.org.json](runs/winter1/16959-nickita.org.json) |
 
-In-game WR: 16.981 by G Lixin.
+In-game WR: 16.961 by gmoneyy.
 
 <a id="winter2"></a>
 ## Winter 2
@@ -99,7 +99,7 @@ In-game WR: 16.981 by G Lixin.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **26.669** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [26669-nickita.org.json](runs/winter2/26669-nickita.org.json) |
 
-In-game WR: 26.805 by G Lixin.
+In-game WR: 26.820 by heisfast.
 
 <a id="winter3"></a>
 ## Winter 3
@@ -110,7 +110,7 @@ In-game WR: 26.805 by G Lixin.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **34.219** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [34219-nickita.org.json](runs/winter3/34219-nickita.org.json) |
 
-In-game WR: 34.356 by G Lixin.
+In-game WR: 34.220 by gmoneyy.
 
 <a id="winter4"></a>
 ## Winter 4
@@ -121,7 +121,7 @@ In-game WR: 34.356 by G Lixin.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **19.246** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [19246-nickita.org.json](runs/winter4/19246-nickita.org.json) |
 
-In-game WR: 19.303 by G Lixin.
+In-game WR: 19.249 by gmoneyy.
 
 <a id="winter5"></a>
 ## Winter 5
@@ -132,7 +132,7 @@ In-game WR: 19.303 by G Lixin.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **18.148** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [18148-nickita.org.json](runs/winter5/18148-nickita.org.json) |
 
-In-game WR: 18.323 by SpeedySebas.
+In-game WR: 18.150 by gmoneyy.
 
 <a id="desert1"></a>
 ## Desert 1
@@ -143,7 +143,7 @@ In-game WR: 18.323 by SpeedySebas.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **25.009** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [25009-nickita.org.json](runs/desert1/25009-nickita.org.json) |
 
-In-game WR: 25.011 by yungy shortcutter.
+In-game WR: 25.161 by Monstrosity.
 
 <a id="desert2"></a>
 ## Desert 2
@@ -154,7 +154,7 @@ In-game WR: 25.011 by yungy shortcutter.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **28.062** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [28062-nickita.org.json](runs/desert2/28062-nickita.org.json) |
 
-In-game WR: 28.268 by Anonymous.
+In-game WR: 28.063 by gmoneyy.
 
 <a id="desert3"></a>
 ## Desert 3
@@ -165,7 +165,7 @@ In-game WR: 28.268 by Anonymous.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **20.150** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [20150-nickita.org.json](runs/desert3/20150-nickita.org.json) |
 
-In-game WR: 20.295 by G Lixin.
+In-game WR: 20.302 by The Kroger.
 
 <a id="desert4"></a>
 ## Desert 4
@@ -176,7 +176,7 @@ In-game WR: 20.295 by G Lixin.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **21.640** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [21640-nickita.org.json](runs/desert4/21640-nickita.org.json) |
 
-In-game WR: 21.722 by G Lixin.
+In-game WR: 21.750 by Monstrosity.
 
 <a id="desert5"></a>
 ## Desert 5
@@ -187,4 +187,4 @@ In-game WR: 21.722 by G Lixin.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **28.911** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [28911-nickita.org.json](runs/desert5/28911-nickita.org.json) |
 
-In-game WR: 29.000 by G Lixin.
+In-game WR: 28.913 by gmoneyy.
