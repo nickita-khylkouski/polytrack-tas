@@ -66,7 +66,7 @@ In-game WR: 49.815 by 🇭🇰🦈 Wak3son🦈🇭🇰.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **36.920** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [36920-nickita.org.json](runs/summer6/36920-nickita.org.json) |
 
-In-game WR: 36.921 by gmoneyy.
+In-game WR: 36.992 by Monstrosity.
 
 <a id="summer7"></a>
 ## Summer 7
@@ -88,7 +88,7 @@ In-game WR: 31.142 by SpeedySebas.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **16.959** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [16959-nickita.org.json](runs/winter1/16959-nickita.org.json) |
 
-In-game WR: 16.961 by gmoneyy.
+In-game WR: 16.999 by Monstrosity.
 
 <a id="winter2"></a>
 ## Winter 2
@@ -110,7 +110,7 @@ In-game WR: 26.820 by heisfast.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **34.219** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [34219-nickita.org.json](runs/winter3/34219-nickita.org.json) |
 
-In-game WR: 34.220 by gmoneyy.
+In-game WR: 34.389 by SpeedySebas.
 
 <a id="winter4"></a>
 ## Winter 4
@@ -121,7 +121,7 @@ In-game WR: 34.220 by gmoneyy.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **19.246** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [19246-nickita.org.json](runs/winter4/19246-nickita.org.json) |
 
-In-game WR: 19.249 by gmoneyy.
+In-game WR: 19.311 by SpeedySebas.
 
 <a id="winter5"></a>
 ## Winter 5
@@ -132,7 +132,7 @@ In-game WR: 19.249 by gmoneyy.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **18.148** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [18148-nickita.org.json](runs/winter5/18148-nickita.org.json) |
 
-In-game WR: 18.150 by gmoneyy.
+In-game WR: 18.323 by SpeedySebas.
 
 <a id="desert1"></a>
 ## Desert 1
@@ -154,7 +154,7 @@ In-game WR: 25.161 by Monstrosity.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **28.062** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [28062-nickita.org.json](runs/desert2/28062-nickita.org.json) |
 
-In-game WR: 28.063 by gmoneyy.
+In-game WR: 28.271 by cheesebob (81).
 
 <a id="desert3"></a>
 ## Desert 3
@@ -187,4 +187,4 @@ In-game WR: 21.750 by Monstrosity.
 |--:|--:|:--|:--|:--|:--|
 | 1 | **28.911** | [nickita.org](https://github.com/nickita-khylkouski) | 2026-10-26 | input search over the official engine | [28911-nickita.org.json](runs/desert5/28911-nickita.org.json) |
 
-In-game WR: 28.913 by gmoneyy.
+In-game WR: 29.027 by Monstrosity.

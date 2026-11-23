@@ -1,6 +1,6 @@
 {
  "version": "0.6.3",
- "updated": "2026-11-16",
+ "updated": "2026-11-23",
  "tracks": [
   {
    "slug": "summer1",
@@ -96,8 +96,8 @@
    "slug": "summer6",
    "name": "Summer 6",
    "official": {
-    "frames": 36921,
-    "nickname": "gmoneyy"
+    "frames": 36992,
+    "nickname": "Monstrosity"
    },
    "runs": [
     {
@@ -132,8 +132,8 @@
    "slug": "winter1",
    "name": "Winter 1",
    "official": {
-    "frames": 16961,
-    "nickname": "gmoneyy"
+    "frames": 16999,
+    "nickname": "Monstrosity"
    },
    "runs": [
     {
@@ -168,8 +168,8 @@
    "slug": "winter3",
    "name": "Winter 3",
    "official": {
-    "frames": 34220,
-    "nickname": "gmoneyy"
+    "frames": 34389,
+    "nickname": "SpeedySebas"
    },
    "runs": [
     {
@@ -186,8 +186,8 @@
    "slug": "winter4",
    "name": "Winter 4",
    "official": {
-    "frames": 19249,
-    "nickname": "gmoneyy"
+    "frames": 19311,
+    "nickname": "SpeedySebas"
    },
    "runs": [
     {
@@ -204,8 +204,8 @@
    "slug": "winter5",
    "name": "Winter 5",
    "official": {
-    "frames": 18150,
-    "nickname": "gmoneyy"
+    "frames": 18323,
+    "nickname": "SpeedySebas"
    },
    "runs": [
     {
@@ -240,8 +240,8 @@
    "slug": "desert2",
    "name": "Desert 2",
    "official": {
-    "frames": 28063,
-    "nickname": "gmoneyy"
+    "frames": 28271,
+    "nickname": "cheesebob (81)"
    },
    "runs": [
     {
@@ -294,8 +294,8 @@
    "slug": "desert5",
    "name": "Desert 5",
    "official": {
-    "frames": 28913,
-    "nickname": "gmoneyy"
+    "frames": 29027,
+    "nickname": "Monstrosity"
    },
    "runs": [
     {
